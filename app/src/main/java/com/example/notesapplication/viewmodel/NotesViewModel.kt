@@ -1,9 +1,12 @@
-package com.example.notesapplication
+package com.example.notesapplication.viewmodel
 
 import android.app.Application
 import androidx.lifecycle.AndroidViewModel
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.viewModelScope
+import com.example.notesapplication.entity.Note
+import com.example.notesapplication.database.NotesDatabase
+import com.example.notesapplication.repository.NotesRepository
 import kotlinx.coroutines.launch
 
 class NotesViewModel(application: Application): AndroidViewModel(application) {
@@ -13,7 +16,7 @@ class NotesViewModel(application: Application): AndroidViewModel(application) {
     val noteList: LiveData<List<Note>>
 
     init {
-        val database = NotesDatabase.getDatabase(application)
+        val database = NotesDatabase.Companion.getDatabase(application)
         val noteDao = database.noteDao
         repository = NotesRepository(noteDao)
         noteList = repository.getNotes()

@@ -1,10 +1,11 @@
-package com.example.notesapplication
+package com.example.notesapplication.dao
 
 import androidx.lifecycle.LiveData
 import androidx.room.Dao
 import androidx.room.Query
 import androidx.room.Update
 import androidx.room.Upsert
+import com.example.notesapplication.entity.Note
 
 @Dao
 interface NoteDao {

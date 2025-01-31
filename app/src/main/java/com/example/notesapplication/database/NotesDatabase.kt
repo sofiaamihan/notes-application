@@ -1,9 +1,11 @@
-package com.example.notesapplication
+package com.example.notesapplication.database
 
 import android.content.Context
 import androidx.room.Database
 import androidx.room.Room
 import androidx.room.RoomDatabase
+import com.example.notesapplication.dao.NoteDao
+import com.example.notesapplication.entity.Note
 
 @Database(
     entities = [Note::class],
