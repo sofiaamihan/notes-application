@@ -2,12 +2,12 @@
 <project version="4">
   <component name="deploymentTargetSelector">
     <selectionStates>
-      <SelectionState runConfigName="app">
+      <SelectionState runConfigName="NotesApplication.app">
         <option name="selectionMode" value="DROPDOWN" />
-        <DropdownSelection timestamp="2025-01-31T00:48:21.563403Z">
+        <DropdownSelection timestamp="2025-08-30T09:36:15.910004Z">
           <Target type="DEFAULT_BOOT">
             <handle>
-              <DeviceId pluginId="LocalEmulator" identifier="path=/Users/sofiaamihan/.android/avd/Pixel_5_API_31.avd" />
+              <DeviceId pluginId="LocalEmulator" identifier="path=/Users/sofiaamihan/.android/avd/Pixel_8_API_35_.avd" />
             </handle>
           </Target>
         </DropdownSelection>
