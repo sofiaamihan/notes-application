@@ -1,6 +1,7 @@
 # Notes Application
 A simple notes application built using Kotlin and Jetpack Compose to demonstrate the modern architectural pattern in computer software.
 This application allows users to create, read, update, and delete notes.
+![Main](https://github.com/sofiaamihan/notes-application/blob/main/data/main.png)
 
 ## Features
 - Create new notes
